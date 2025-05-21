@@ -1,5 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import CTA from "@/components/CTA";
+import Gallery from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
 import OurCommitment from "@/components/OurCommitment";
 import PremiumGrooming from "@/components/PremiumGrooming";
@@ -15,6 +16,7 @@ export default function Home() {
       <OurCommitment />
       <Testimonials />
       <ServicePrices />
+      <Gallery />
       < CTA />
     </main>
 

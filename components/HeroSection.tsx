@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 const HeroSection = () => {
     return (
-        <section className="bg-[#1E1E1E] lg:flex lg:px-16 md:px-10 px-5 py-7 lg:gap-10">
+        <section className="bg-[#1E1E1E] lg:flex lg:px-16 md:px-10 px-5 py-16 lg:gap-10">
             <div className="lg:w-[50%]">
-                <h1 className="text-[#DEAE34] pt-11"> Premium Barber Services in Denton</h1>
+                <h1 className="text-[#DEAE34] pt-6"> Premium Barber Services in Denton</h1>
                 <p className="text-white text-5xl font-extrabold pt-5"> Classic Cuts, Modern Style</p>
                 <h2 className="text-[#DEAE34] text-5xl font-extrabold pt-3 ">
                     <span className="border-b-4 border-[#DEAE34]"> Premium Barber Shop</span>
@@ -21,15 +21,15 @@ const HeroSection = () => {
                 </div>
 
                 <Link href={"/"}
-                    className='w-full text-white bg-[#1A1A1A] hover:bg-[#DEAE34] flex justify-center items-center gap-4 p-[4px] border-1 border-[#71717B] rounded-xl'>
+                    className='transition-all transform hover:-translate-y-2 duration-300 ease-in-out w-full text-white bg-[#1A1A1A] hover:bg-[#DEAE34] flex justify-center items-center gap-4 p-[5px] border-1 border-[#71717B] rounded-xl'>
                     <Phone className="" size={15} />Our Services
                 </Link>
                 <Link href={"/"}
-                    className='w-full text-white bg-[#DEAE34]  flex justify-center items-center gap-4 p-1.5 mt-3 rounded-xl'>
+                    className='transition-all transform hover:-translate-y-1 duration-300 ease-in-out w-full text-white bg-[#DEAE34]  flex justify-center items-center gap-4 p-1.5 mt-3 rounded-xl'>
                     <Phone className=" text-white" size={15} />Call us
                 </Link>
             </div>
-            <div className="relative lg:w-[50%] flex justify-center items-center ">
+            <div className="relative lg:w-[50%] flex justify-center items-center lg:pt-0 pt-10">
                 <div className="relative w-full h-[360px] overflow-hidden group">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"

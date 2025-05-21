@@ -8,11 +8,11 @@ const ServicePrices = () => {
             <div
                 className="absolute top-[-50px] right-[-20px] w-[280px] h-[280px] rounded-full z-5  bg-[#25231C]"
             ></div>
-            <div className="flex justify-center items-center flex-col">
+            <div className="flex justify-center items-center flex-col z-10">
                 <p className="text-[#DEAE34] font-bold pt-8 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
                     Quality Barbering at Fair Prices
                 </p>
-                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block">
+                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block z-10">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         Our Service Prices
                     </span>
@@ -33,7 +33,7 @@ const ServicePrices = () => {
                         <li>Neck & Line Cleanup (between cuts)</li>
                     </ul>
 
-                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl transition-all duration-300 transform hover:-translate-y-2 relative">
+                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl transition-all duration-300 transform hover:-translate-y-1 relative">
                         <Link href={"/"}
                             className=' '>
                             Book now
@@ -55,7 +55,7 @@ const ServicePrices = () => {
 
                     </ul>
 
-                    <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border-[#71717B] border p-2 mt-5 rounded-xl transition-colors duration-300 ease-in-out  transform hover:-translate-y-2">
+                    <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border-[#71717B] border p-2 mt-5 rounded-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2">
                         <Link href={"/"}
                             className=' '>
                             Book now
@@ -77,7 +77,7 @@ const ServicePrices = () => {
                         <li>Loyalty Program</li>
                     </ul>
 
-                    <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border border-[#71717B] p-2 mt-5 rounded-xl transition-colors duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border border-[#71717B] p-2 mt-5 rounded-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2">
                         <Link href={"/"}
                             className=' '>
                             Book now

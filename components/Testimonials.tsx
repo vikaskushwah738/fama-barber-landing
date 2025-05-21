@@ -16,7 +16,7 @@ const Testimonials = () => {
                 <p className="text-[#DEAE34] font-bold pt-8 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
                     Testimonials
                 </p>
-                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block">
+                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block z-10">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         What Our Clients Say
                     </span>
@@ -24,7 +24,7 @@ const Testimonials = () => {
 
             </div>
             {/* Testimonial  */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 pt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 pt-16">
                 <div className="relative group z-10 h-auto min-h-[360px] overflow-hidden bg-[#222222] rounded-xl border border-[#71717B] hover:border-[#DEAE34] transition-all duration-300 transform hover:-translate-y-2">
                     <article className="relative px-6 pt-11" aria-label="Testimonial from a loyal PMC Barbershop customer">
                         <blockquote className="relative">

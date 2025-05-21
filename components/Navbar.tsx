@@ -1,5 +1,6 @@
 import { Globe, Phone, SunMoon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 const Navbar = () => {
     return (
         <nav className="bg-[#1A1A1A] text-white font-medium h-20 flex items-center px-24 justify-between">
@@ -14,11 +15,11 @@ const Navbar = () => {
                 />
             </div>
             <ul className="flex gap-7">
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Gallery</li>
-                <li>Contact</li>
+                <li><Link href={"/"} className=''>Home</Link></li>
+                <li><Link href="#about" className=''>About</Link></li>
+                <li><Link href="#services" className=''>Services</Link></li>
+                <li><Link href="#gallery" className=''>Gallery</Link></li>
+                <li><Link href="#contact" className=''>Contact</Link></li>
             </ul>
             <ul className="flex gap-7 items-center">
                 <li><SunMoon size={20} strokeWidth={1.25} /></li>
