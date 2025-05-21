@@ -16,7 +16,7 @@ export const AboutUs = () => {
 
                 {/* <h2 className="text-3xl text-white font-bold pt-4"><span className="border-b-3 border-[#DEAE34]">About PMC Barbershop</span> </h2> */}
                 <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block">
-                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
+                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-36 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         About PMC Barbershop
                     </span>
                 </h2>
