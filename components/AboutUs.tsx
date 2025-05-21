@@ -10,12 +10,12 @@ export const AboutUs = () => {
 
 
             <div className="flex justify-center items-center flex-col">
-                <p className="text-[#DEAE34] pt-12 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
+                <p className="text-[#DEAE34] font-bold pt-12 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
                     Our Story
                 </p>
 
                 {/* <h2 className="text-3xl text-white font-bold pt-4"><span className="border-b-3 border-[#DEAE34]">About PMC Barbershop</span> </h2> */}
-                <h2 className="text-3xl text-white font-bold pt-4 group relative inline-block">
+                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         About PMC Barbershop
                     </span>
