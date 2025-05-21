@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const ServicePrices = () => {
     return (
@@ -19,67 +20,70 @@ const ServicePrices = () => {
                 <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Choose from our range of professional barbering services.</p>
             </div>
             <div className="pt-10 gap-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white ">
-                <div className="group bg-[#222222] h-[450px] rounded-xl border-2 border-t-8  border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
-                    <div className="w-[79px] h-[79px] flex justify-center items-center pt-16  ">
-                        <div className="relative  bg-[#2D2D2D] p-2 rounded-xl group-hover:bg-[#3b382a] transition-all duration-300 group-hover:scale-105">
-                            <Image
-                                alt="Fama Barber Shop and Beauty Salon Logo"
-                                src='/hair-styling-icon.svg'
-                                width={50}
-                                height={50}
-                                className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
-                            />
-                        </div>
+                <div className="group bg-[#222222] h-[480px] rounded-xl border-2 border-t-8  border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
-                    </div>
-                    <h4 className="pt-14 group-hover:text-[#DEAE34]">Haircuts</h4>
-                    <p className="text-[#71717B] pt-10">Our skilled barbers deliver precision haircuts tailored to your style and face shape. From classic cuts
-                        to modern fades, we ensure you leave looking sharp and confident.</p>
-                    <ul className="text-[#71717B] list-disc pl-5 pt-3">
-                        <li>Classic Cuts</li>
-                        <li>Modern Styles</li>
+                    <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Class</span>ic Services</h4>
+                    <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$25</span> <span className="text-[#71717B]">/mon</span></p>
+                    <ul className=" pl-5 pt-7 space-y-4">
+                        <li>Men's Haircut</li>
+                        <li>Kids Haircut (12 & under)</li>
+                        <li>Senior Haircut (65+)</li>
+                        <li>Military/First Responder Cut</li>
+                        <li>Basic Beard Trim</li>
+                        <li>Neck & Line Cleanup (between cuts)</li>
                     </ul>
-                </div>
-                <div className="group hover:text-[#DEAE34] bg-[#222222] h-[450px] rounded-xl border-1 border-[#71717B] hover:border-t-4 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10 ">
-                    <div className="w-[79px] h-[79px] flex justify-center items-center pt-16">
-                        <div className=" relative bg-[#2D2D2D] p-2 rounded-xl group-hover:bg-[#3b382a] transition-all duration-300 group-hover:scale-105">
-                            <Image
-                                alt="Fama Barber Shop and Beauty Salon Logo"
-                                src='/makeup-icon.svg'
-                                width={50}
-                                height={50}
-                                className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
-                            />
-                        </div>
 
+                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl">
+                        <Link href={"/"}
+                            className=' '>
+                            Book now
+                        </Link>
                     </div>
-                    <h4 className="pt-14">Beard Services</h4>
-                    <p className="text-[#71717B] pt-10">Maintain your facial hair with our premium beard services. Our barbers specialize in perfect beard
-                        shaping, precise trims, and luxurious hot towel shaves for the ultimate grooming experience.</p>
-                    <ul className="text-[#71717B] list-disc pl-5 pt-3">
-                        <li>Beard Trims</li>
-                        <li>Beard Shaping</li>
-                    </ul>
+
                 </div>
-                <div className="group hover:text-[#DEAE34] bg-[#222222] h-[450px] rounded-xl border-1 border-[#71717B] hover:border-t-4 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
-                    <div className="w-[79px] h-[79px] flex justify-center items-center pt-16">
-                        <div className=" relative bg-[#2D2D2D] p-2 rounded-xl group-hover:bg-[#3b382a] transition-all duration-300 group-hover:scale-105">
-                            <Image
-                                alt="Fama Barber Shop and Beauty Salon Logo"
-                                src='/skincare-icon.svg'
-                                width={50}
-                                height={50}
-                                className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
-                            />
-                        </div>
-                    </div>
-                    <h4 className="pt-14">Premium Services</h4>
-                    <p className="text-[#71717B] pt-10">Enhance your look with our premium barbering services including expert hair coloring, revitalizing
-                        scalp treatments, and styling for special occasions when you need to look your absolute best.</p>
-                    <ul className="text-[#71717B] list-disc pl-5 pt-3">
-                        <li>Hair Coloring</li>
-                        <li>Scalp Treatments</li>
+                <div className="group bg-[#222222] h-[480px] rounded-xl hover:border-2  hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
+
+                    <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Prem</span>ium Services</h4>
+                    <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$35</span> <span className="text-[#71717B]">/mon</span></p>
+                    <ul className=" pl-5 pt-7 space-y-4">
+                        <li>Haircut & Beard Combo</li>
+                        <li>Hot Towel Shave</li>
+                        <li>Full Beard Shaping & Design</li>
+                        <li>Color Camo (Gray Blending)</li>
+                        <li>Hair & Scalp Treatment</li>
+                        <li>Head Shave with Hot Towel</li>
+
                     </ul>
+
+                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl">
+                        <Link href={"/"}
+                            className=' '>
+                            Book now
+                        </Link>
+                    </div>
+
+                </div>
+                <div className="group bg-[#222222] h-[480px] rounded-xl hover:border-2 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
+
+                    <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Pack</span>ages</h4>
+                    <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$50</span> <span className="text-[#71717B]">/mon</span></p>
+                    <ul className=" pl-5 pt-7 space-y-4">
+
+                        <li>The Works (Cut, Shave, Treatment)</li>
+                        <li>Father & Son Combo</li>
+                        <li>Groom's Package</li>
+                        <li>Monthly Membership (2 cuts/mo)</li>
+                        <li>First-Time Client Special</li>
+                        <li>Loyalty Program</li>
+                    </ul>
+
+                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl">
+                        <Link href={"/"}
+                            className=' '>
+                            Book now
+                        </Link>
+                    </div>
+
                 </div>
             </div>
             <div
