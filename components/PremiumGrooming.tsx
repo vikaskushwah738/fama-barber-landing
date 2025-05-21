@@ -74,7 +74,6 @@ const PremiumGrooming = () => {
                                 className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
                             />
                         </div>
-
                     </div>
                     <h4 className="pt-14">Premium Services</h4>
                     <p className="text-[#71717B] pt-10">Enhance your look with our premium barbering services including expert hair coloring, revitalizing
