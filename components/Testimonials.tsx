@@ -23,70 +23,125 @@ const Testimonials = () => {
                 </h2>
 
             </div>
-            <div className="pt-10 gap-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white ">
-                <div className="group bg-[#222222] h-[450px] rounded-xl border-1 border-[#71717B] hover:border-t-4  hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
-                    <div className="w-[79px] h-[79px] flex justify-center items-center pt-16  ">
-                        <div className="relative  bg-[#2D2D2D] p-2 rounded-xl group-hover:bg-[#3b382a] transition-all duration-300 group-hover:scale-105">
-                            <Image
-                                alt="Fama Barber Shop and Beauty Salon Logo"
-                                src='/hair-styling-icon.svg'
-                                width={50}
-                                height={50}
-                                className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
-                            />
-                        </div>
+            {/* Testimonial  */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 pt-10">
+                <div className="relative group z-10 h-auto min-h-[360px] overflow-hidden bg-[#222222] rounded-xl border border-[#71717B] hover:border-[#DEAE34] transition-all duration-300 transform hover:-translate-y-2">
+                    <article className="relative px-6 pt-11" aria-label="Testimonial from a loyal PMC Barbershop customer">
+                        <blockquote className="relative">
+                            <span
+                                aria-hidden="true"
+                                className="absolute top-0 left-0 text-[#DEAE34] text-5xl leading-none font-serif transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                            >
+                                “
+                            </span>
+                            <p className="pt-5 text-white">
+                                I've been getting my hair cut at PMC Barbershop for over 2 years now.
+                                The attention to detail is unmatched, and the atmosphere is always
+                                welcoming. My barber remembers exactly how I like my fade every time!
+                            </p>
+                        </blockquote>
 
-                    </div>
-                    <h4 className="pt-14 group-hover:text-[#DEAE34]">Haircuts</h4>
-                    <p className="text-[#71717B] pt-10">Our skilled barbers deliver precision haircuts tailored to your style and face shape. From classic cuts
-                        to modern fades, we ensure you leave looking sharp and confident.</p>
-                    <ul className="text-[#71717B] list-disc pl-5 pt-3">
-                        <li>Classic Cuts</li>
-                        <li>Modern Styles</li>
-                    </ul>
-                </div>
-                <div className="group hover:text-[#DEAE34] bg-[#222222] h-[450px] rounded-xl border-1 border-[#71717B] hover:border-t-4 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10 ">
-                    <div className="w-[79px] h-[79px] flex justify-center items-center pt-16">
-                        <div className=" relative bg-[#2D2D2D] p-2 rounded-xl group-hover:bg-[#3b382a] transition-all duration-300 group-hover:scale-105">
-                            <Image
-                                alt="Fama Barber Shop and Beauty Salon Logo"
-                                src='/makeup-icon.svg'
-                                width={50}
-                                height={50}
-                                className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
-                            />
+                        {/* Closing quote positioned relative to the content */}
+                        <div className="mt-2 text-right">
+                            <span
+                                aria-hidden="true"
+                                className="text-[#DEAE34] text-5xl leading-none font-serif transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                            >
+                                ”
+                            </span>
                         </div>
+                    </article>
 
-                    </div>
-                    <h4 className="pt-14">Beard Services</h4>
-                    <p className="text-[#71717B] pt-10">Maintain your facial hair with our premium beard services. Our barbers specialize in perfect beard
-                        shaping, precise trims, and luxurious hot towel shaves for the ultimate grooming experience.</p>
-                    <ul className="text-[#71717B] list-disc pl-5 pt-3">
-                        <li>Beard Trims</li>
-                        <li>Beard Shaping</li>
-                    </ul>
-                </div>
-                <div className="group hover:text-[#DEAE34] bg-[#222222] h-[450px] rounded-xl border-1 border-[#71717B] hover:border-t-4 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
-                    <div className="w-[79px] h-[79px] flex justify-center items-center pt-16">
-                        <div className=" relative bg-[#2D2D2D] p-2 rounded-xl group-hover:bg-[#3b382a] transition-all duration-300 group-hover:scale-105">
-                            <Image
-                                alt="Fama Barber Shop and Beauty Salon Logo"
-                                src='/skincare-icon.svg'
-                                width={50}
-                                height={50}
-                                className="rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
-                            />
+                    {/* Reviewer name & rating */}
+                    <div className="w-full">
+                        <div className="border-t border-white pt-4 z-20 px-6">
+                            <span className="text-[#DEAE34]">★ ★ ★ ★ ★</span>
+                            <span className="text-white ml-3 border-l-2 pl-4 border-amber-300">Mike Johnson</span>
                         </div>
                     </div>
-                    <h4 className="pt-14">Premium Services</h4>
-                    <p className="text-[#71717B] pt-10">Enhance your look with our premium barbering services including expert hair coloring, revitalizing
-                        scalp treatments, and styling for special occasions when you need to look your absolute best.</p>
-                    <ul className="text-[#71717B] list-disc pl-5 pt-3">
-                        <li>Hair Coloring</li>
-                        <li>Scalp Treatments</li>
-                    </ul>
+
+                    {/* Decorative background circle */}
+                    <div className="absolute bottom-[-50px] right-[-50px] w-36 h-36 rounded-full bg-[#373225] " />
                 </div>
+                <div className="relative group z-10 h-auto min-h-[360px] overflow-hidden bg-[#222222] rounded-xl border border-[#71717B] hover:border-[#DEAE34] transition-all duration-300 transform hover:-translate-y-2">
+                    <article className="relative px-6 pt-11" aria-label="Testimonial from a loyal PMC Barbershop customer">
+                        <blockquote className="relative">
+                            <span
+                                aria-hidden="true"
+                                className="absolute top-0 left-0 text-[#DEAE34] text-5xl leading-none font-serif transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                            >
+                                “
+                            </span>
+                            <p className="pt-5 text-white">
+                                As someone who's particular about their haircut, I was nervous trying a new place. The team
+                                at PMC took their time to understand what I wanted and delivered exactly that. Will definitely
+                                be coming back!
+                            </p>
+                        </blockquote>
+
+                        {/* Closing quote positioned relative to the content */}
+                        <div className="mt-2 text-right">
+                            <span
+                                aria-hidden="true"
+                                className="text-[#DEAE34] text-5xl leading-none font-serif transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                            >
+                                ”
+                            </span>
+                        </div>
+                    </article>
+
+                    {/* Reviewer name & rating */}
+                    <div className="w-full">
+                        <div className="border-t border-white pt-4 z-20 px-6">
+                            <span className="text-[#DEAE34]">★ ★ ★ ★ ★</span>
+                            <span className="text-white ml-3 border-l-2 pl-4 border-amber-300">David Martinez</span>
+                        </div>
+                    </div>
+
+                    {/* Decorative background circle */}
+                    <div className="absolute bottom-[-50px] right-[-50px] w-36 h-36 rounded-full bg-[#373225] " />
+                </div>
+                <div className="relative group z-10 h-auto min-h-[360px] overflow-hidden bg-[#222222] rounded-xl border border-[#71717B] hover:border-[#DEAE34] transition-all duration-300 transform hover:-translate-y-2">
+                    <article className="relative px-6 pt-11" aria-label="Testimonial from a loyal PMC Barbershop customer">
+                        <blockquote className="relative">
+                            <span
+                                aria-hidden="true"
+                                className="absolute top-0 left-0 text-[#DEAE34] text-5xl leading-none font-serif transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                            >
+                                “
+                            </span>
+                            <p className="pt-5 text-white">
+                                The hot towel shave experience at PMC Barbershop is phenomenal! It's the perfect blend of old-school
+                                barbering with modern techniques. My beard has never looked better.
+                            </p>
+                        </blockquote>
+
+                        {/* Closing quote positioned relative to the content */}
+                        <div className="mt-2 text-right">
+                            <span
+                                aria-hidden="true"
+                                className="text-[#DEAE34] text-5xl leading-none font-serif transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12"
+                            >
+                                ”
+                            </span>
+                        </div>
+                    </article>
+
+                    {/* Reviewer name & rating */}
+                    <div className="w-full pt-6">
+                        <div className="border-t border-white pt-4 z-20 px-6">
+                            <span className="text-[#DEAE34]">★ ★ ★ ★ ★</span>
+                            <span className="text-white ml-3 border-l-2 pl-4 border-amber-300">Williams</span>
+                        </div>
+                    </div>
+
+                    {/* Decorative background circle */}
+                    <div className="absolute bottom-[-50px] right-[-50px] w-36 h-36 rounded-full bg-[#373225] " />
+                </div>
+
+
             </div>
+
             <div
                 className="absolute bottom-[-40px] left-[-40px] w-72 h-72 rounded-full z-1 bg-[#25231C]"
 
@@ -97,7 +152,7 @@ const Testimonials = () => {
               absolute bottom-10 right-10 
               z-0">
             </div>
-        </section>
+        </section >
     )
 }
 
