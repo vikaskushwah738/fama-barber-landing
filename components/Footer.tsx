@@ -25,7 +25,6 @@ const Footer = () => {
                         </div>
 
                     </div>
-
                 </div>
                 <div>
                     <div className="text-lg uppercase mb-3 font-semibold">

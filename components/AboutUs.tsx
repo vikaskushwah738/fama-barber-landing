@@ -1,0 +1,66 @@
+import Image from "next/image";
+export const AboutUs = () => {
+    return (
+        <section className="bg-[#1A1A1A] py-16 lg:px-16 md:px-10 px-5 relative overflow-hidden">
+            <div
+                className="absolute top-[-40px] right-[-40px] w-72 h-72 rounded-full z-10 bg-[#25231C]"
+
+            ></div>
+
+
+
+            <div className="flex justify-center items-center flex-col">
+                <p className="text-[#DEAE34] pt-12 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
+                    Our Story
+                </p>
+
+                {/* <h2 className="text-3xl text-white font-bold pt-4"><span className="border-b-3 border-[#DEAE34]">About PMC Barbershop</span> </h2> */}
+                <h2 className="text-3xl text-white font-bold pt-4 group relative inline-block">
+                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
+                        About PMC Barbershop
+                    </span>
+                </h2>
+                <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Established in 2018, PMC Barbershop has been providing premium grooming services to the men of Denton, TX. Our mission is to deliver exceptional haircuts and grooming services in a welcoming, classic barbershop environment.</p>
+            </div>
+            <div className="lg:flex pt-10 gap-10">
+                <div className="lg:w-[50%]">
+                    <div className="relative w-full h-96 overflow-hidden group rounded-2xl z-10">
+                        <Image
+                            alt="Fama Barber Shop and Beauty Salon Logo"
+                            src='/about.png'
+                            fill
+                            style={{ objectFit: 'fill' }}
+                            className="absolute rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
+                            priority
+                        />
+                    </div>
+                </div>
+                <div className="lg:w-[50%]">
+                    <div className="pt-5">
+                        <p className="border-l-4 text-[#71717B] border-[#DEAE34] pl-4 text-lg pb-5">Established in 2018, PMC Barbershop has been providing premium grooming services to the men of Denton,
+                            TX. Our mission is to deliver exceptional haircuts and grooming services in a welcoming, classic
+                            barbershop environment.</p>
+
+                        <div className="bg-[#282828] text-[#71717B] text-lg p-2 px-5 rounded-xl mt-5">
+                            <div className="hover:pl-2 hover:shadow-xl relative group">
+                                <p className="absolute text-[#DEAE34] text-5xl leading-none text-primary/40 font-serif transform trans ition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:text-primary/60">" </p>
+                                <p className="hover:border-b-1 hover:border-[#DEAE34] pb-2 pt-4">
+                                    We take pride in our attention to detail and personalized service, ensuring each client leaves
+                                    looking and feeling their best. Our skilled barbers combine traditional techniques with modern
+                                    trends to create custom styles that suit each individual's personality and lifestyle.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div
+                className="absolute bottom-[-40px] left-[-40px] w-72 h-72 rounded-full z-1 bg-[#25231C]"
+
+            ></div>
+        </section>
+    )
+}
+export default AboutUs
