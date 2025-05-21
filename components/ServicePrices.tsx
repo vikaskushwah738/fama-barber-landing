@@ -33,7 +33,7 @@ const ServicePrices = () => {
                         <li>Neck & Line Cleanup (between cuts)</li>
                     </ul>
 
-                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl">
+                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl transition-all duration-300 transform hover:-translate-y-2 relative">
                         <Link href={"/"}
                             className=' '>
                             Book now
@@ -55,7 +55,7 @@ const ServicePrices = () => {
 
                     </ul>
 
-                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl">
+                    <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border-[#71717B] border p-2 mt-5 rounded-xl transition-colors duration-300 ease-in-out  transform hover:-translate-y-2">
                         <Link href={"/"}
                             className=' '>
                             Book now
@@ -63,7 +63,7 @@ const ServicePrices = () => {
                     </div>
 
                 </div>
-                <div className="group bg-[#222222] h-[480px] rounded-xl hover:border-2 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
+                <div className="group bg-[#222222]  h-[480px] rounded-xl hover:border-2 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Pack</span>ages</h4>
                     <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$50</span> <span className="text-[#71717B]">/mon</span></p>
@@ -77,7 +77,7 @@ const ServicePrices = () => {
                         <li>Loyalty Program</li>
                     </ul>
 
-                    <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl">
+                    <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border border-[#71717B] p-2 mt-5 rounded-xl transition-colors duration-300 ease-in-out transform hover:-translate-y-2">
                         <Link href={"/"}
                             className=' '>
                             Book now
