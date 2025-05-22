@@ -32,7 +32,7 @@ const OurCommitment = () => {
 
                     <h4 className="pt-14 group-hover:text-[#DEAE34]">Expert Barbers</h4>
                     <p className="text-[#71717B] pt-7">
-                        Our team consists of certified barbers with years of experience in classic and modern cutting techniques, beard grooming, and men's styling.
+                        Our team consists of certified barbers with years of experience in classic and modern cutting techniques, beard grooming, and men&apos;s styling.
                     </p>
                 </div>
                 <div className="group relative bg-[#222222] h-[320px] rounded-xl border border-[#71717B] hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer  z-10 overflow-hidden">
@@ -43,7 +43,7 @@ const OurCommitment = () => {
                     </div>
                     <h4 className="pt-14 group-hover:text-[#DEAE34]">Premium Tools & Products</h4>
                     <p className="text-[#71717B] pt-7">
-                        We use only high-quality barbering tools and premium men's grooming products to ensure the best results for your hair and skin.</p>
+                        We use only high-quality barbering tools and premium men&apos;s grooming products to ensure the best results for your hair and skin.</p>
                 </div>
                 <div className="group relative bg-[#222222] h-[320px] rounded-xl border border-[#71717B] hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer  z-10 overflow-hidden">
                     {/* animated top border */}
