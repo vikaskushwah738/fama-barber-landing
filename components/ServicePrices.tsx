@@ -36,7 +36,7 @@ const ServicePrices = () => {
                     </ul>
 
                     <div className="text-white w-full text-center bg-[#DEAE34] p-2 mt-5 rounded-xl transition-all duration-300 transform hover:-translate-y-1 relative">
-                        <Link href={"/"}
+                        <Link href="#contact"
                             className=' '>
                             Book now
                         </Link>
@@ -58,7 +58,7 @@ const ServicePrices = () => {
                     </ul>
 
                     <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border-[#71717B] border p-2 mt-5 rounded-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2">
-                        <Link href={"/"}
+                        <Link href="#contact"
                             className=' '>
                             Book now
                         </Link>
@@ -80,7 +80,7 @@ const ServicePrices = () => {
                     </ul>
 
                     <div className="hover:text-white w-full text-center text-black bg-[#1A1A1A] hover:bg-[#DEAE34] border border-[#71717B] p-2 mt-5 rounded-xl transition-all duration-300 ease-in-out transform hover:-translate-y-2">
-                        <Link href={"/"}
+                        <Link href="#contact"
                             className=' '>
                             Book now
                         </Link>
