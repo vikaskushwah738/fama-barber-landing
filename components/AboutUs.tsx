@@ -16,7 +16,7 @@ export const AboutUs = () => {
                         About Fama Barber Shop and Beauty Salon
                     </span>
                 </h2>
-                <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Established in 2022, Fama Barber Shop and Beauty Salon has been providing premium grooming services to the men of Denton, TX. Our mission is to deliver exceptional haircuts and grooming services in a welcoming, classic barbershop environment.</p>
+                <p className="text-[#71717B] lg:px-52 md:px-24 text-center pt-10 text-lg">Established in 2022, Fama Barber Shop and Beauty Salon has been providing premium grooming services to the men of Denton, TX. Our mission is to deliver exceptional haircuts and grooming services in a welcoming, classic barbershop environment.</p>
             </div>
             <div className="lg:flex pt-10 lg:gap-10">
                 <div className="lg:w-[50%] ">
