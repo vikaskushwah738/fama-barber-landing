@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Gallery = () => {
     return (
-        <section className="bg-[#1A1A1A] py-24 lg:px-16 md:px-10 px-5 relative overflow-hidden">
+        <section className="bg-[#1A1A1A] py-24 lg:px-16 md:px-10 px-5 relative overflow-hidden" id='gallery'>
             <div
                 className="absolute top-[-40px] right-[-40px] w-[250px] h-[250px] rounded-full z-10 bg-[#3b382a]"
             ></div>

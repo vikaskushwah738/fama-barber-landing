@@ -48,7 +48,7 @@ const Navbar = () => {
                     <li><SunMoon size={20} strokeWidth={1.25} /></li>
                     <li><Globe size={20} strokeWidth={1.25} /></li>
                     <li className="flex gap-2"><Phone className="text-[#DEAE34]" size={19} />+91 940-612-9127</li>
-                    <li className="bg-[#DEAE34] hover:bg-[#f0cd74] rounded-xl text-sm p-2">Book an Appointment</li>
+                    <li className="bg-[#DEAE34] hover:bg-[#f0cd74] rounded-xl text-sm p-2"><Link href="#contact" className=''>Book an Appointment</Link></li>
                 </ul>
 
                 <div className="text-blue-950 text-3xl lg:hidden">
@@ -75,7 +75,7 @@ const Navbar = () => {
                         <li className="border-b-2 border-[#DEAE34] pb-2 flex justify-center"><SunMoon size={20} strokeWidth={1.25} /></li>
                         <li className="border-b-2 border-[#DEAE34] pb-2 flex justify-center"><Globe size={20} strokeWidth={1.25} /></li>
                         <li className="gap-2 border-b-2 border-[#DEAE34] pb-2 flex justify-center"><Phone className="text-[#DEAE34]" size={19} />+91 940-612-9127</li>
-                        <li className="border-b-2 border-[#DEAE34] pb-2">Book an Appointment</li>
+                        <li className="border-b-2 border-[#DEAE34] pb-2"><Link href="#contact" className=''>Book an Appointment</Link></li>
                     </ul>
                 </ul>
             )}

@@ -4,7 +4,7 @@ import ServiceForm from "./ServiceForm"
 
 const BookYourAppointment = () => {
     return (
-        <section className="bg-[#1A1A1A] py-24 lg:px-16 md:px-10 px-5 relative overflow-hidden">
+        <section className="bg-[#1A1A1A] py-24 lg:px-16 md:px-10 px-5 relative overflow-hidden" id='contact'>
             <div
                 className="absolute top-[-50px] right-[-20px] w-[280px] h-[280px] rounded-full z-5  bg-[#25231C]"
             ></div>
