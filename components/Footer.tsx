@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <div className="flex flex-col items-center md:grid md:place-items-center gap-2 pb-5">
                         <Image
-                            src='/Logo.png'
+                            src='/logo.png'
                             alt="Fama Barber Shop and Beauty Salon Logo"
                             height={50}
                             width={60}

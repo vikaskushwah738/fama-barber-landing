@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className="h-10 w-12 relative">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"
-                        src='/Logo.png'
+                        src='/logo.png'
                         fill
                         style={{ objectFit: 'fill' }}
                         className="absolute rounded-2xl "
