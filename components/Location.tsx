@@ -18,8 +18,17 @@ const Location = () => {
             </div>
             <div className="lg:flex gap-10">
                 <div className="lg:w-[50%]"></div>
-                <div className="bg-[#222222] lg:w-[50%]">
-                    <h3><span className="border-b-2 border-[#DEAE34]">Cont</span>act Information</h3>
+                <div className="bg-[#222222] lg:w-[50%] px-5 mt-5 rounded-xl">
+                    <h3 className="text-white pt-4 text-xl"><span className="border-b-2 border-[#DEAE34]">Cont</span>act Information</h3>
+                    <div className="flex">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div className="flex">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div></div>
                 </div>
             </div>
             <div
