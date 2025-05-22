@@ -53,7 +53,7 @@ const Testimonials = () => {
                     </article>
 
                     {/* Reviewer name & rating */}
-                    <div className="w-full">
+                    <div className="w-full relative z-10">
                         <div className="border-t border-white pt-4 z-20 px-6">
                             <span className="text-[#DEAE34]">★ ★ ★ ★ ★</span>
                             <span className="text-white ml-3 border-l-2 pl-4 border-amber-300">Mike Johnson</span>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                     </article>
 
                     {/* Reviewer name & rating */}
-                    <div className="w-full">
+                    <div className="w-full relative z-10">
                         <div className="border-t border-white pt-4 z-20 px-6">
                             <span className="text-[#DEAE34]">★ ★ ★ ★ ★</span>
                             <span className="text-white ml-3 border-l-2 pl-4 border-amber-300">David Martinez</span>
@@ -128,7 +128,7 @@ const Testimonials = () => {
                     </article>
 
                     {/* Reviewer name & rating */}
-                    <div className="w-full pt-6">
+                    <div className="w-full pt-6 relative z-10">
                         <div className="border-t border-white pt-4 z-20 px-6">
                             <span className="text-[#DEAE34]">★ ★ ★ ★ ★</span>
                             <span className="text-white ml-3 border-l-2 pl-4 border-amber-300">Williams</span>
