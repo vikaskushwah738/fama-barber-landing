@@ -110,7 +110,7 @@ export default function FaqTabs() {
                             {/* <h2 className="text-xl sm:text-3xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-black">
                                 {section.category}
                             </h2> */}
-                            <div className="space-y-4 lg:px-32 px-5">
+                            <div className="space-y-4 lg:px-32 md:px-5">
                                 {section.faqs.map((faq) => (
                                     <div key={faq.id} className="overflow-hidden bg-[#222222] md:px-5 px-3 rounded-xl">
                                         <button
