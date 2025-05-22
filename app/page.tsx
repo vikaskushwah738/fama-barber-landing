@@ -8,6 +8,8 @@ import PremiumGrooming from "@/components/PremiumGrooming";
 import ServicePrices from "@/components/ServicePrices";
 import Testimonials from "@/components/Testimonials";
 import Location from "@/components/Location";
+import BookYourAppointment from "@/components/BookYourAppointment";
+import CommonQuestions from "@/components/CommonQuestions";
 
 export default function Home() {
   return (
@@ -21,7 +23,9 @@ export default function Home() {
       <Gallery />
       <ExpertStylists />
       <Location />
-      < CTA />
+      <CommonQuestions />
+      <BookYourAppointment />
+      <CTA />
     </main>
 
   );

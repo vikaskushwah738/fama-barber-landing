@@ -20,11 +20,11 @@ const HeroSection = () => {
                         <MapPin size={20} className="text-[#F4BF37] inline-block" /> Denton, TX</span>
                 </div>
 
-                <Link href={"/"}
+                <Link href="#services"
                     className='transition-all transform hover:-translate-y-2 duration-300 ease-in-out w-full text-white bg-[#1A1A1A] hover:bg-[#DEAE34] flex justify-center items-center gap-4 p-[5px] border-1 border-[#71717B] rounded-xl'>
                     <Phone className="" size={15} />Our Services
                 </Link>
-                <Link href={"/"}
+                <Link href="tel:+19406129127"
                     className='transition-all transform hover:-translate-y-1 duration-300 ease-in-out w-full text-white bg-[#DEAE34]  flex justify-center items-center gap-4 p-1.5 mt-3 rounded-xl'>
                     <Phone className=" text-white" size={15} />Call us
                 </Link>
@@ -33,7 +33,7 @@ const HeroSection = () => {
                 <div className="relative w-full h-[360px] overflow-hidden group">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"
-                        src='/hero.png'
+                        src='/hero.jpg'
                         fill
                         style={{ objectFit: 'fill' }}
                         className="absolute rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"

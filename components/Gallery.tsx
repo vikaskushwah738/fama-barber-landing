@@ -17,31 +17,31 @@ const Gallery = () => {
                 </h2>
                 <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Take a look at our shop atmosphere and the quality cuts we deliver to our clients.</p>
             </div>
-            <div className="pt-10 gap-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 text-white ">
-                <div className="rounded-2xl w-[390px] h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
+            <div className="pt-10 gap-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white ">
+                <div className="rounded-2xl w-full h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"
-                        src='/shop.jpg'
+                        src='/gallary.jpeg'
                         fill
                         style={{ objectFit: 'fill' }}
                         className="z-4 absolute rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
                         priority
                     />
                 </div>
-                <div className="rounded-2xl w-[390px] h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
+                <div className="rounded-2xl w-full h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"
-                        src='/shop-2.jpg'
+                        src='/gallary-2.jpg'
                         fill
                         style={{ objectFit: 'fill' }}
                         className="absolute rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"
                         priority
                     />
                 </div>
-                <div className="rounded-2xl w-[390px] h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
+                <div className="rounded-2xl w-full h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"
-                        src='/shop-3.jpg'
+                        src='/gallary-3.webp'
                         fill
                         style={{ objectFit: 'fill' }}
                         className="z-3 absolute rounded-2xl transform transition-transform duration-500 ease-in-out group-hover:scale-105"

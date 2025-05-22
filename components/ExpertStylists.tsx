@@ -25,7 +25,7 @@ const ExpertStylists = () => {
                     <div className="overflow-hidden mt-5 w-full h-[220px] relative group">
                         <Image
                             alt="Fama Barber Shop and Beauty Salon Logo"
-                            src='/shop.jpg'
+                            src='/emp-1.jpg'
                             fill
                             style={{ objectFit: 'fill' }}
                             className="z-4 absolute transform transition-transform duration-500 ease-in-out group-hover:scale-105"
@@ -50,7 +50,7 @@ const ExpertStylists = () => {
                     <div className="overflow-hidden mt-5 w-full h-[220px] relative group">
                         <Image
                             alt="Fama Barber Shop and Beauty Salon Logo"
-                            src='/shop.jpg'
+                            src='/emp-2.jpg'
                             fill
                             style={{ objectFit: 'fill' }}
                             className="z-4 absolute transform transition-transform duration-500 ease-in-out group-hover:scale-105"
@@ -76,7 +76,7 @@ const ExpertStylists = () => {
                     <div className="overflow-hidden mt-5 w-full h-[220px] relative group">
                         <Image
                             alt="Fama Barber Shop and Beauty Salon Logo"
-                            src='/shop.jpg'
+                            src='/emp-3.jpg'
                             fill
                             style={{ objectFit: 'fill' }}
                             className="z-4 absolute transform transition-transform duration-500 ease-in-out group-hover:scale-105"
