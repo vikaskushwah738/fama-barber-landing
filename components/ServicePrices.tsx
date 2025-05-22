@@ -21,7 +21,7 @@ const ServicePrices = () => {
                 <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Choose from our range of professional barbering services.</p>
             </div>
             <div className="pt-10 gap-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                <div className="group bg-[#222222] h-[480px] rounded-xl border-2 border-t-8  border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
+                <div className="group bg-[#222222] md:h-[480px] h-[520px] rounded-xl border-2 border-t-8  border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Class</span>ic Services</h4>
                     <p className="pt-8"><span className="text-xl font-bold text-white">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$25</span> <span className="text-[#71717B]">/mon</span></p>

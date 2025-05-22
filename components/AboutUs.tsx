@@ -11,7 +11,7 @@ export const AboutUs = () => {
                     Our Story
                 </p>
 
-                {/*  show on medium (md) and larger screens */}
+                {/* show on medium (md) and larger screens */}
                 <h2 className="hidden md:block text-4xl text-white font-bold pt-4 group relative z-10">
                     <span className="pb-1 text-white relative after:content-[''] after:absolute after:bottom-0 after:left-72 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         About Fama Barber Shop and Beauty Salon
