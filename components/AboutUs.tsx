@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export const AboutUs = () => {
     return (
         <section className="bg-[#1A1A1A] py-16 lg:px-16 md:px-10 px-5 relative overflow-hidden" id='about'>
