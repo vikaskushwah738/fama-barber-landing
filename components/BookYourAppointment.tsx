@@ -51,7 +51,7 @@ const BookYourAppointment = () => {
                     </div>
 
                 </div>
-                <div className="bg-[#222222] lg:w-[75%] mt-5 rounded-xl hover:border-2 hover:border-[#DEAE34] transition-all transform hover:-translate-y-2 duration-300 ease-in-out">
+                <div className="relative z-10 bg-[#222222] lg:w-[75%] mt-5 rounded-xl hover:border-2 hover:border-[#DEAE34] transition-all transform hover:-translate-y-2 duration-300 ease-in-out">
                     <ServiceForm />
                 </div>
             </div>
