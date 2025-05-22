@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bg-[#222222]  text-gray-50 shadow ">
             <section className="p-2 md:px-10 md:py-10 grid px-5 md:grid-cols-[1.5fr_1fr_1fr_1.5fr] gap-6">
                 <div>
-                    <div className="flex flex-col items-center md:grid md:place-items-center gap-2 pb-5">
+                    <div className="flex flex-col items-center md:grid md:place-items-center gap-2 pb-5 md:pt-0 pt-10">
                         <Image
                             src='/logo.png'
                             alt="Fama Barber Shop and Beauty Salon Logo"
