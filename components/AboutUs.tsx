@@ -18,7 +18,7 @@ export const AboutUs = () => {
                 </h2>
 
                 {/* This will show on small screens only */}
-                <h2 className="block md:hidden text-4xl text-white font-bold pt-4 group relative z-10">
+                <h2 className="block md:hidden text-3xl text-white font-bold pt-4 group relative z-10">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-10 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         About us
                     </span>

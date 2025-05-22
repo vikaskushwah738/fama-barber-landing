@@ -14,7 +14,7 @@ const OurCommitment = () => {
                 </p>
                 <h2 className="md:text-4xl text-3xl text-center text-white font-bold pt-4 group relative inline-block z-10">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-48 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
-                        Why Choose PMC Barbershop?
+                        Why Choose us?
                     </span>
                 </h2>
                 <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">What makes us the premier barbershop in Denton, TX.</p>
