@@ -23,7 +23,7 @@ const ServicePrices = () => {
                 <div className="group bg-[#222222] h-[480px] rounded-xl border-2 border-t-8  border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Class</span>ic Services</h4>
-                    <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$25</span> <span className="text-[#71717B]">/mon</span></p>
+                    <p className="pt-8"><span className="text-xl font-bold text-white">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$25</span> <span className="text-[#71717B]">/mon</span></p>
                     <ul className=" pl-5 pt-7 space-y-4 text-white">
                         <li>Men's Haircut</li>
                         <li>Kids Haircut (12 & under)</li>
@@ -44,7 +44,7 @@ const ServicePrices = () => {
                 <div className="group bg-[#222222] h-[480px] rounded-xl hover:border-2  hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Prem</span>ium Services</h4>
-                    <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$35</span> <span className="text-[#71717B]">/mon</span></p>
+                    <p className="pt-8"><span className="text-xl font-bold text-white">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$35</span> <span className="text-[#71717B]">/mon</span></p>
                     <ul className=" pl-5 pt-7 space-y-4 text-white">
                         <li>Haircut & Beard Combo</li>
                         <li>Hot Towel Shave</li>
@@ -66,7 +66,7 @@ const ServicePrices = () => {
                 <div className="group bg-[#222222]  h-[480px] rounded-xl hover:border-2 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Pack</span>ages</h4>
-                    <p className="pt-8"><span className="text-xl font-bold">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$50</span> <span className="text-[#71717B]">/mon</span></p>
+                    <p className="pt-8"><span className="text-xl font-bold text-white">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$50</span> <span className="text-[#71717B]">/mon</span></p>
                     <ul className=" pl-5 pt-7 space-y-4 text-white">
 
                         <li>The Works (Cut, Shave, Treatment)</li>
