@@ -112,7 +112,7 @@ export default function FaqTabs() {
                             </h2> */}
                             <div className="space-y-4 lg:px-32 px-5">
                                 {section.faqs.map((faq) => (
-                                    <div key={faq.id} className="overflow-hidden bg-[#222222] md:px-5 rounded-xl">
+                                    <div key={faq.id} className="overflow-hidden bg-[#222222] md:px-5 px-3 rounded-xl">
                                         <button
                                             onClick={() => setOpenItem(openItem === faq.id ? null : faq.id)}
                                             className="w-full text-left py-4 flex justify-between items-center focus:outline-none"
@@ -129,7 +129,7 @@ export default function FaqTabs() {
                                             </svg>
                                         </button>
                                         {openItem === faq.id && (
-                                            <div className="py-2 px-8 pb-3  bg-[#222222]">
+                                            <div className="py-2 md:px-8 px-3 pb-3  bg-[#222222]">
                                                 <div className="prose prose-sm max-w-none text-[#71717B] text-lg">{faq.answer}</div>
                                             </div>
                                         )}

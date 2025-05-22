@@ -57,7 +57,6 @@ const BookYourAppointment = () => {
             </div>
             <div
                 className="absolute bottom-[-40px] left-[-40px] w-72 h-72 rounded-full z-1 bg-[#25231C]"
-
             ></div>
         </section>
     )
