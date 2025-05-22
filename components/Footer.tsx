@@ -73,8 +73,8 @@ const Footer = () => {
                 </div>
             </section>
             <section className="bg-[#222222] border-t-2 border-white p-2 md:px-24 md:py-5 md:flex justify-between text-sm text-center">
-                <p> © {new Date().getFullYear()} Fama Barber Shop and Beauty Salon. All Rights Reserved.</p>
-                <div className="flex gap-1 justify-center items-center">
+                <p className="text-sm"> © {new Date().getFullYear()} Fama Barber Shop and Beauty Salon. All Rights Reserved.</p>
+                <div className="flex gap-1 justify-center items-center lg:pt-0 pt-2">
                     Design & Developed by
                     <Link
                         href="https://vikas-me.vercel.app/"
