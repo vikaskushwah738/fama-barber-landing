@@ -13,7 +13,7 @@ const PremiumGrooming = () => {
                 <p className="text-[#DEAE34] font-bold pt-8 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
                     Premium Grooming
                 </p>
-                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block z-10">
+                <h2 className="md:text-4xl text-3xl text-center text-white font-bold pt-4 group relative inline-block z-10">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         Our Barber Services
                     </span>
