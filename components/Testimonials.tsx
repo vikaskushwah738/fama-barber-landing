@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 
 const Testimonials = () => {
     return (
@@ -35,7 +35,7 @@ const Testimonials = () => {
                                 “
                             </span>
                             <p className="pt-5 text-white">
-                                I've been getting my hair cut at PMC Barbershop for over 2 years now.
+                                I&lsquo;ve been getting my hair cut at PMC Barbershop for over 2 years now.
                                 The attention to detail is unmatched, and the atmosphere is always
                                 welcoming. My barber remembers exactly how I like my fade every time!
                             </p>
@@ -73,7 +73,7 @@ const Testimonials = () => {
                                 “
                             </span>
                             <p className="pt-5 text-white">
-                                As someone who's particular about their haircut, I was nervous trying a new place. The team
+                                As someone who&lsquo;s particular about their haircut, I was nervous trying a new place. The team
                                 at PMC took their time to understand what I wanted and delivered exactly that. Will definitely
                                 be coming back!
                             </p>
@@ -111,7 +111,7 @@ const Testimonials = () => {
                                 “
                             </span>
                             <p className="pt-5 text-white">
-                                The hot towel shave experience at PMC Barbershop is phenomenal! It's the perfect blend of old-school
+                                The hot towel shave experience at PMC Barbershop is phenomenal! It&lsquo;s the perfect blend of old-school
                                 barbering with modern techniques. My beard has never looked better.
                             </p>
                         </blockquote>

@@ -41,11 +41,11 @@ export const AboutUs = () => {
 
                         <div className="bg-[#282828] text-[#71717B] p-2 px-5 rounded-xl mt-5 ">
                             <div className="hover:pl-2 hover:shadow-xl relative group duration-300 ease-in-out ">
-                                <p className="absolute text-[#DEAE34] text-5xl leading-none text-primary/40 font-serif transform trans ition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:text-primary/60">" </p>
+                                <p className="absolute text-[#DEAE34] text-5xl leading-none text-primary/40 font-serif transform trans ition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:text-primary/60">&quot; </p>
                                 <p className="hover:border-b-1 hover:border-[#DEAE34] pb-4 pt-4">
                                     We take pride in our attention to detail and personalized service, ensuring each client leaves
                                     looking and feeling their best. Our skilled barbers combine traditional techniques with modern
-                                    trends to create custom styles that suit each individual's personality and lifestyle.
+                                    trends to create custom styles that suit each individual&apos;s personality and lifestyle.
                                 </p>
 
                             </div>

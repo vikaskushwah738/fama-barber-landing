@@ -1,6 +1,6 @@
 import { Facebook, Instagram } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+
 
 const ExpertStylists = () => {
     return (
@@ -38,7 +38,7 @@ const ExpertStylists = () => {
                         </span>
                         <h3 className="pt-4 group-hover:text-[#F4BF37] transition-colors duration-300 ease-in-out">Jason Rodriguez</h3>
                         <h4 className="text-[#F4BF37]">Owner & Master Barber</h4>
-                        <p className="text-[#71717B] pt-3 text-sm">With over 15 years of experience, Jason founded PMC Barbershop to bring premium men's grooming services to Denton. Specializing in classic cuts and</p>
+                        <p className="text-[#71717B] pt-3 text-sm">With over 15 years of experience, Jason founded PMC Barbershop to bring premium men&lsquo;s grooming services to Denton. Specializing in classic cuts and</p>
                     </div>
 
                     <div className="flex justify-center gap-5 pt-4 transition-all duration-300  transform group-hover:-translate-y-2">
@@ -64,7 +64,7 @@ const ExpertStylists = () => {
                         <h3 className="pt-4 group-hover:text-[#F4BF37] transition-colors duration-300 ease-in-out">Terrence Jackson</h3>
                         <h4 className="text-[#F4BF37]">Barber & Stylist</h4>
                         <p className="text-[#71717B] pt-3 text-sm">
-                            Terrence specializes in modern men's styling, textured cuts, and hair designs. With his creative approach and technical skill, he excels at transforming your look...</p>
+                            Terrence specializes in modern men&lsquo;s styling, textured cuts, and hair designs. With his creative approach and technical skill, he excels at transforming your look...</p>
                     </div>
 
                     <div className="flex justify-center gap-5 pt-4 transition-all duration-300  transform group-hover:-translate-y-2">

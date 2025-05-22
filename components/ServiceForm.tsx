@@ -75,7 +75,7 @@ export default function ServiceForm() {
                     <option value="haircut">Haircut</option>
                     <option value="hottowel-shave">Hot Towel Shave</option>
                     <option value="haircut-and-beard-combo">Haircut & Beard Combo</option>
-                    <option value="kids-haircut">Kid's Haircut</option>
+                    <option value="kids-haircut">Kid&apos;s Haircut</option>
                     <option value="senior-haircut">Senior Haircut</option>
                     <option value="Other">Other</option>
                 </select>

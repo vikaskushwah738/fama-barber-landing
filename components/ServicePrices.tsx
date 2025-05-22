@@ -1,5 +1,5 @@
 import { Check } from "lucide-react"
-import Image from "next/image"
+
 import Link from "next/link"
 
 const ServicePrices = () => {
@@ -27,7 +27,7 @@ const ServicePrices = () => {
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Class</span>ic Services</h4>
                     <p className="pt-8"><span className="text-xl font-bold text-white">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$25</span> <span className="text-[#71717B]">/mon</span></p>
                     <ul className=" pl-3 pt-7 space-y-4 text-white">
-                        <li className="flex items-center gap-3 "><span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span>  Men's Haircut</li>
+                        <li className="flex items-center gap-3 "><span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span>  Men&apos;s Haircut</li>
                         <li className="flex items-center gap-3 "><span className="bg-[#DEAE34] p-1 rounded-full"><Check size={15} /></span>  Kids Haircut (12 & under)</li>
                         <li className="flex items-center gap-3 "><span className="bg-[#DEAE34] p-1 rounded-full"><Check size={15} /></span>  Senior Haircut (65+)</li>
                         <li className="flex items-center gap-3 "><span className="bg-[#DEAE34] p-1 rounded-full"><Check size={15} /></span>  Military/First Responder Cut</li>
@@ -73,7 +73,7 @@ const ServicePrices = () => {
 
                         <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> The Works (Cut, Shave, Treatment)</li>
                         <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> Father & Son Combo</li>
-                        <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> Groom's Package</li>
+                        <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> Groom&apos;s Package</li>
                         <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> Monthly Membership (2 cuts/mo)</li>
                         <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> First-Time Client Special</li>
                         <li className="flex items-center gap-3"> <span className="bg-[#DEAE34] p-1 rounded-full"> <Check size={15} /></span> Loyalty Program</li>
