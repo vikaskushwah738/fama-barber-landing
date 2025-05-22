@@ -21,7 +21,7 @@ const Gallery = () => {
                         Our Gallery
                     </span>
                 </h2>
-                <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Take a look at our shop atmosphere and the quality cuts we deliver to our clients.</p>
+                <p className="text-[#71717B] lg:px-52 md:px-24 px-4 text-center pt-10 text-lg">Take a look at our shop atmosphere and the quality cuts we deliver to our clients.</p>
             </div>
             <div className="pt-10 gap-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white ">
                 <div className="rounded-2xl w-full h-[300px] relative overflow-hidden group hover:border-2 border-[#DEAE34]">
