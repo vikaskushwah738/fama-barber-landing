@@ -10,9 +10,15 @@ const Gallery = () => {
                 <p className="text-[#DEAE34] font-bold pt-8 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
                     Our Work & Shop
                 </p>
-                <h2 className="md:text-4xl text-3xl text-white font-bold pt-4 group relative inline-block z-10 text-center">
+                <h2 className="hidden md:block md:text-4xl text-3xl text-white font-bold pt-4 group relative z-10 text-center">
                     <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-36 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         Our Barbershop Gallery
+                    </span>
+                </h2>
+
+                <h2 className="md:hidden block text-3xl text-white font-bold pt-4 group relative z-10 text-center">
+                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-10 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
+                        Our Gallery
                     </span>
                 </h2>
                 <p className="text-[#71717B] lg:px-52 md:px-24 px-6 text-center pt-10 text-lg">Take a look at our shop atmosphere and the quality cuts we deliver to our clients.</p>

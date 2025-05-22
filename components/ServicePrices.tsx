@@ -64,7 +64,7 @@ const ServicePrices = () => {
                     </div>
 
                 </div>
-                <div className="group bg-[#222222]  h-[480px] rounded-xl hover:border-2 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
+                <div className="group bg-[#222222]  md:h-[480px] h-[520px] rounded-xl hover:border-2 hover:border-[#DEAE34] lg:px-6 px-5 transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 cursor-pointer relative z-10">
 
                     <h4 className="pt-5 text-white font-bold text-xl"> <span className="border-b-2  border-[#DEAE34]">Pack</span>ages</h4>
                     <p className="pt-8"><span className="text-xl font-bold text-white">$</span>  <span className="text-5xl text-[#DEAE34]  font-extrabold">$50</span> <span className="text-[#71717B]">/mon</span></p>
