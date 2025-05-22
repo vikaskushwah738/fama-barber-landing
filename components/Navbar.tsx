@@ -64,7 +64,7 @@ const Navbar = () => {
                     ref={sidebarRef}
                     // bg-opacity-70 
                     onClick={toggleNavbar}
-                    className={`${isOpen ? "translate-x-0" : "-translate-x-3/4"} ease-in-out translate-all duration-500 lg:hidden fixed w-[75%] right-0 space-y-4 h-screen text-[#71717B]  bg-[#1E1E1E] opacity-70 z-10 flex flex-col items-center pt-5 md:px-10 px-5`}>
+                    className={`${isOpen ? "translate-x-0" : "-translate-x-3/4"} ease-in-out translate-all duration-500 lg:hidden fixed w-[75%] right-0 space-y-4 h-screen text-gray-50  bg-[#1E1E1E] opacity-70 z-10 flex flex-col items-center pt-5 md:px-10 px-5`}>
                     <ul className="flex flex-col w-full text-center gap-7">
                         <li className="border-b-2 border-[#DEAE34] pb-2"><Link href={"/"} className=''>Home</Link></li>
                         <li className="border-b-2 border-[#DEAE34] pb-2"><Link href="#about" className=''>About</Link></li>
