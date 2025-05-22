@@ -84,7 +84,7 @@ export default function FaqTabs() {
     const [openItem, setOpenItem] = useState<string | null>(null);
 
     return (
-        <div className='relative z-10 lg:px-16 md:px-10 px-5 pt-10'>
+        <div className='relative z-10 lg:px-16 md:px-10 pt-10'>
             {/* Tabs */}
             <div className="mb-6">
                 <div className="flex flex-wrap justify-center gap-2 mb-4">
@@ -112,7 +112,7 @@ export default function FaqTabs() {
                             </h2> */}
                             <div className="space-y-4 lg:px-32 px-5">
                                 {section.faqs.map((faq) => (
-                                    <div key={faq.id} className="overflow-hidden bg-[#222222] px-5 rounded-xl">
+                                    <div key={faq.id} className="overflow-hidden bg-[#222222] md:px-5 rounded-xl">
                                         <button
                                             onClick={() => setOpenItem(openItem === faq.id ? null : faq.id)}
                                             className="w-full text-left py-4 flex justify-between items-center focus:outline-none"
