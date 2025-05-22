@@ -11,11 +11,21 @@ export const AboutUs = () => {
                 </p>
 
                 {/* <h2 className="text-3xl text-white font-bold pt-4"><span className="border-b-3 border-[#DEAE34]">About PMC Barbershop</span> </h2> */}
-                <h2 className="text-4xl text-white font-bold pt-4 group relative inline-block z-10">
-                    <span className=" text-white relative after:content-[''] after:absolute after:bottom-0 after:left-72 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
+
+                {/* This will show on medium (md) and larger screens */}
+                <h2 className="hidden md:block text-4xl text-white font-bold pt-4 group relative  z-10">
+                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-72 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         About Fama Barber Shop and Beauty Salon
                     </span>
                 </h2>
+
+                {/* This will show on small screens only */}
+                <h2 className="block md:hidden text-4xl text-white font-bold pt-4 group relative z-10">
+                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-10 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
+                        About us
+                    </span>
+                </h2>
+
                 <p className="text-[#71717B] lg:px-52 md:px-24 text-center pt-10 text-lg">Established in 2022, Fama Barber Shop and Beauty Salon has been providing premium grooming services to the men of Denton, TX. Our mission is to deliver exceptional haircuts and grooming services in a welcoming, classic barbershop environment.</p>
             </div>
             <div className="lg:flex pt-10 lg:gap-10">
