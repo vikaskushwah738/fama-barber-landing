@@ -25,7 +25,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <header >
+        <header className="fixed w-full z-25">
             <nav className="bg-[#1A1A1A] text-white font-medium h-20 flex items-center lg:px-24 md:px-10 px-5 justify-between">
                 <div className="h-10 w-12 relative">
                     <Image
