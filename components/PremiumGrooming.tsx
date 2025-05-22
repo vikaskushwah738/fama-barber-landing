@@ -14,7 +14,7 @@ const PremiumGrooming = () => {
                     Premium Grooming
                 </p>
                 <h2 className="md:text-4xl text-3xl text-center text-white font-bold pt-4 group relative inline-block z-10">
-                    <span className="text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
+                    <span className="pb-1 text-white relative after:content-[''] after:absolute after:bottom-0 after:left-28 after:w-20 after:h-[3px] after:bg-[#DEAE34] after:transition-all after:duration-300 group-hover:after:left-0 group-hover:after:w-full">
                         Our Barber Services
                     </span>
                 </h2>

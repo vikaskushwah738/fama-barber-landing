@@ -13,7 +13,7 @@ const Testimonials = () => {
                 className="absolute top-[-65px] right-[-20px] w-[290px] h-[290px] rounded-full z-5  bg-[#25231C]"
             ></div>
             <div className="flex justify-center items-center flex-col">
-                <p className="text-[#DEAE34] font-bold pt-8 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
+                <p className="pb-1 text-[#DEAE34] font-bold pt-8 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer relative z-10">
                     Testimonials
                 </p>
                 <h2 className="md:text-4xl text-3xl text-white font-bold pt-4 group relative inline-block z-10">
