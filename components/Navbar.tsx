@@ -27,13 +27,13 @@ const Navbar = () => {
     return (
         <header className="fixed w-full z-25">
             <nav className="bg-[#1A1A1A] text-white font-medium h-20 flex items-center lg:px-24 md:px-10 px-5 justify-between">
-                <div className="h-10 w-12 relative">
+                <div className="relative">
                     <Image
                         alt="Fama Barber Shop and Beauty Salon Logo"
-                        src='/logo.png'
-                        fill
-                        style={{ objectFit: 'fill' }}
-                        className="absolute rounded-2xl "
+                        src='/fama-logo.png'
+                        height={50}
+                        width={60}
+                        className="rounded-2xl "
                         priority
                     />
                 </div>
