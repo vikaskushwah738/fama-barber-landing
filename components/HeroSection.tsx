@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const HeroSection = () => {
     return (
-        <section className="bg-[#1E1E1E] lg:flex lg:px-16 md:px-10 px-5 py-16 lg:gap-10 pt-20">
+        <section className="bg-[#1E1E1E] flex flex-col-reverse lg:flex-row lg:px-16 md:px-10 px-5 py-16 lg:gap-10 pt-20">
             <div className="lg:w-[50%]">
                 <h1 className="text-[#DEAE34] md:pt-10 pt-20"> Premium Barber Services in Denton</h1>
                 <p className="text-white md:text-5xl text-3xl font-extrabold pt-5"> Classic Cuts, Modern Style</p>
