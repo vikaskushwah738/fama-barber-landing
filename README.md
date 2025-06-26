@@ -51,7 +51,7 @@ components/
 └── Footer.tsx
 
 public/
-└── images/ // Static assets (logo, hero image, etc.)
+└── images // Static assets (logo, hero image, etc.)
 
 tailwind.config.js // Tailwind config
 postcss.config.js // PostCSS setup
@@ -85,10 +85,10 @@ You’ll see the site live at http://localhost:3000
 
 ## 🖼️ Screenshots
 
-### 💻 Desktop View
+## 💻 Desktop View
 
 ![Fama Barber Homepage - Desktop View](https://fama-barber-landing-alpha.vercel.app/hreo.png)
 
-### 📱 Mobile View
+## 📱 Mobile View
 
 ![Fama Barber Homepage - Mobile View](https://fama-barber-landing-alpha.vercel.app/hero-mobile.png)
